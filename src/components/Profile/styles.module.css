@@ -1,0 +1,11 @@
+.container {
+  width: fit-content;
+  height: fit-content;
+  text-align: center;
+  border: 1px solid red;
+}
+.imagem {
+  width: 200px;
+  height: 200px;
+  margin: 10px;
+}

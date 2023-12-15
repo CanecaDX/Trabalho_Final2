@@ -1,0 +1,32 @@
+.container {
+  border: 1px solid greenyellow;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  border-radius: 10px;
+  width: 250px;
+}
+
+.container > p {
+  margin: 8px;
+}
+
+.container > span {
+  font-size: 24px;
+  font-weight: 900;
+  margin: 10px;
+}
+
+.container > button {
+  background-color: greenyellow;
+  border-radius: 10px;
+  color: black;
+  padding: 8px;
+  font-weight: 600;
+}
+.cardImg {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}

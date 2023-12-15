@@ -1,0 +1,31 @@
+.container {
+  display: flex;
+  flex-direction: row;
+}
+.container > div {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 20px;
+}
+.container span,
+.container button {
+  margin: 20px;
+}
+.titulo,
+.preco {
+  font-size: 32px;
+  font-weight: 900;
+}
+.container button {
+  font-size: 28px;
+  background-color: greenyellow;
+  border-radius: 10px;
+  color: black;
+  padding: 8px;
+  font-weight: 600;
+}
+.container img {
+  height: 350px;
+  border-radius: 20px;
+}
